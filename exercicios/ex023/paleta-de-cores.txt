@@ -1,0 +1,7 @@
+paleta de cores
+
+#044389
+#8d99ae
+#3d3b30
+#ffe787
+#f79824

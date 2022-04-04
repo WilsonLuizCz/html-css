@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários tamanhos diferentes ou 
+        simplismente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexível">
+        
+    </picture>
+
+    <h2>Reproduzindo Aúdio</h2>
+
+    <p>Agora vamos aprender a colocar uma aúdio no site!</p>
+
+    <audio src="media/RockYouLikeAHurricane2007.mp3" autoplay controls></audio> <!--Primeira forma de colocar aúdio-->
+
+    <audio preload="metadata" autoplay controls><!--Segunda forma de colocar aúdio e mais segura-->
+
+        <source src="" type="audio/wav">
+        <source src="" type="audio/ogg">
+        <source src="media/RockYouLikeAHurricane2007.mp3" type="audio/mpeg">
+
+    </audio><!--mp3,WAV,OGG-->
+    <h2>Vídeos</h2>
+    <p>Vamos aprender sobre mídias de vídeos</p>
+
+
+</body>
+</html>
